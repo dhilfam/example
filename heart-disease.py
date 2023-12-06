@@ -4,6 +4,8 @@ import numpy as np
 import pickle
 import time
 import streamlit as st
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.linear_model import LogisticRegression
 from PIL import Image
 
 # Page Configuration
