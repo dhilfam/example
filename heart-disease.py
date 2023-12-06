@@ -84,7 +84,7 @@ def heart():
 
     # Data df
     st.image('heart-disease.jpg', width=700)
-    model = pickle.load(open('model/model.pkl', 'rb'))
+    model = pickle.load(open('model/generate_heart_disease.pkl', 'rb'))
     if st.sidebar.button("GO!"):
         df = input_df.copy()
         st.write(df)
