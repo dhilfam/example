@@ -82,10 +82,10 @@ def heart():
 
     # Data df
     st.image('heart-disease.jpg', width=700)
+    model = pickle.load(open('model/model.pkl', 'rb'))
     if st.sidebar.button("GO!"):
         df = input_df.copy()
         st.write(df)
-        model = pickle.load(open('generate_heart_disease.pkl', 'rb'))
         prediction = model.predict(df)
         result = ['No Heart Disease' if prediction == 0 else 'Heart Disease']
         with st.spinner('Wait for it...'):
