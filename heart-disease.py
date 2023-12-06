@@ -106,7 +106,7 @@ if nav == "Home":
     st.write('''
     **Machine Learning & AI Track**
     
-    Hallo, saya [Budi Raharjo](https://www.linkedin.com/in/budi-raharjo-9b7a1b1b0/), saya adalah seorang mahasiswa di 
+    Hallo, saya [Budi Raharjo SH](https://##), saya adalah seorang mahasiswa di
     salah satu perguruan tinggi di Indonesia. Saya mengambil jurusan Teknik Informatika. Saya mengikuti kelas Machine 
     Learning & AI di DQLab Academy. Ini adalah capstone project saya.
     ''')
@@ -300,7 +300,7 @@ elif nav == "About":
     st.title("About Me")
     st.image("https://avatars.githubusercontent.com/u/59464302?v=4", width=200)
     st.write('''
-    **Budi Raharjo**
+    **Budi Raharjo SH**
     
     Saya adalah seorang mahasiswa di salah satu perguruan tinggi di Indonesia. Saya mengambil jurusan Teknik Informatika.
     Saya mengikuti kelas Machine Learning & AI di DQLab Academy. Ini adalah capstone project saya.
@@ -308,11 +308,11 @@ elif nav == "About":
     st.write('''
     **Contact Me**
     
-    - [LinkedIn](https://www.linkedin.com/in/budi-raharjo-9b7a1b1b0/)
-    - [Github](https://www.github.com/budiraharjo)
-    - [Instagram](https://www.instagram.com/budiraharjo)
-    - [Facebook](https://www.facebook.com/budiraharjo)
-    - [Twitter](https://www.twitter.com/budiraharjo)
+    - [LinkedIn](##)
+    - [Github](##)
+    - [Instagram](##)
+    - [Facebook](##)
+    - [Twitter](##)
     ''')
 
     select_item = st.selectbox("My Project Preview", ('', 'Iris Prediction', 'Housing Price Prediction'))
